@@ -1,7 +1,0 @@
-name: Actions check
-on: push
-jobs:
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - run: curl -s -o /dev/null -w "espn %{http_code}\n" "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard"
