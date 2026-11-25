@@ -2,10 +2,10 @@
  "pts": {
   "label": "Points",
   "model": "hist_gradient_boosting (poisson)",
-  "samples": 34065,
+  "samples": 34135,
   "mae": 4.481,
-  "rmse": 5.871,
-  "range_80_hit_rate": 81.0,
+  "rmse": 5.87,
+  "range_80_hit_rate": 80.9,
   "walk_forward": [
    {
     "season": 2026,
@@ -15,31 +15,31 @@
    },
    {
     "season": 2027,
-    "samples": 5696,
-    "mae": 4.47,
-    "rmse": 5.866
+    "samples": 5766,
+    "mae": 4.468,
+    "rmse": 5.859
    }
   ],
   "benchmark": {
    "baselines": {
-    "last_5": 4.833,
-    "last_10": 4.719,
-    "season_average": 4.715
+    "last_5": 4.832,
+    "last_10": 4.718,
+    "season_average": 4.714
    },
    "best_baseline": "season_average",
-   "best_baseline_mae": 4.715,
+   "best_baseline_mae": 4.714,
    "model_mae": 4.481,
-   "model_improvement": 0.234,
-   "model_improvement_pct": 5.0,
+   "model_improvement": 0.233,
+   "model_improvement_pct": 4.9,
    "beats_best_baseline": true
   }
  },
  "reb": {
   "label": "Rebounds",
   "model": "hist_gradient_boosting (poisson)",
-  "samples": 34065,
+  "samples": 34135,
   "mae": 1.853,
-  "rmse": 2.439,
+  "rmse": 2.438,
   "range_80_hit_rate": 81.0,
   "walk_forward": [
    {
@@ -50,32 +50,32 @@
    },
    {
     "season": 2027,
-    "samples": 5696,
-    "mae": 1.837,
-    "rmse": 2.415
+    "samples": 5766,
+    "mae": 1.834,
+    "rmse": 2.411
    }
   ],
   "benchmark": {
    "baselines": {
-    "last_5": 1.994,
-    "last_10": 1.944,
-    "season_average": 1.928
+    "last_5": 1.993,
+    "last_10": 1.943,
+    "season_average": 1.927
    },
    "best_baseline": "season_average",
-   "best_baseline_mae": 1.928,
+   "best_baseline_mae": 1.927,
    "model_mae": 1.853,
-   "model_improvement": 0.075,
-   "model_improvement_pct": 3.9,
+   "model_improvement": 0.074,
+   "model_improvement_pct": 3.8,
    "beats_best_baseline": true
   }
  },
  "ast": {
   "label": "Assists",
   "model": "hist_gradient_boosting (poisson)",
-  "samples": 34065,
+  "samples": 34135,
   "mae": 1.325,
   "rmse": 1.795,
-  "range_80_hit_rate": 83.4,
+  "range_80_hit_rate": 83.5,
   "walk_forward": [
    {
     "season": 2026,
@@ -85,8 +85,8 @@
    },
    {
     "season": 2027,
-    "samples": 5696,
-    "mae": 1.324,
+    "samples": 5766,
+    "mae": 1.323,
     "rmse": 1.793
    }
   ],
@@ -100,16 +100,16 @@
    "best_baseline_mae": 1.368,
    "model_mae": 1.325,
    "model_improvement": 0.043,
-   "model_improvement_pct": 3.1,
+   "model_improvement_pct": 3.2,
    "beats_best_baseline": true
   }
  },
  "pra": {
   "label": "PRA",
   "model": "sum of points + rebounds + assists models",
-  "samples": 34065,
-  "mae": 5.846,
-  "rmse": 7.544,
+  "samples": 34135,
+  "mae": 5.845,
+  "rmse": 7.542,
   "range_80_hit_rate": 80.0,
   "walk_forward": [
    {
@@ -120,21 +120,21 @@
    },
    {
     "season": 2027,
-    "samples": 5696,
-    "mae": 5.842,
-    "rmse": 7.559
+    "samples": 5766,
+    "mae": 5.836,
+    "rmse": 7.545
    }
   ],
   "benchmark": {
    "baselines": {
-    "last_5": 6.355,
-    "last_10": 6.265,
-    "season_average": 6.245
+    "last_5": 6.353,
+    "last_10": 6.263,
+    "season_average": 6.243
    },
    "best_baseline": "season_average",
-   "best_baseline_mae": 6.245,
-   "model_mae": 5.846,
-   "model_improvement": 0.399,
+   "best_baseline_mae": 6.243,
+   "model_mae": 5.845,
+   "model_improvement": 0.398,
    "model_improvement_pct": 6.4,
    "beats_best_baseline": true
   }
@@ -142,9 +142,9 @@
  "min": {
   "label": "Minutes",
   "model": "hist_gradient_boosting (poisson)",
-  "samples": 34065,
-  "mae": 4.674,
-  "rmse": 6.065,
+  "samples": 34135,
+  "mae": 4.672,
+  "rmse": 6.062,
   "range_80_hit_rate": 80.3,
   "walk_forward": [
    {
@@ -155,20 +155,20 @@
    },
    {
     "season": 2027,
-    "samples": 5696,
-    "mae": 4.605,
-    "rmse": 5.949
+    "samples": 5766,
+    "mae": 4.594,
+    "rmse": 5.935
    }
   ],
   "benchmark": {
    "baselines": {
-    "last_5": 5.211,
-    "last_10": 5.322,
-    "season_average": 5.337
+    "last_5": 5.209,
+    "last_10": 5.32,
+    "season_average": 5.335
    },
    "best_baseline": "last_5",
-   "best_baseline_mae": 5.211,
-   "model_mae": 4.674,
+   "best_baseline_mae": 5.209,
+   "model_mae": 4.672,
    "model_improvement": 0.537,
    "model_improvement_pct": 10.3,
    "beats_best_baseline": true
@@ -178,103 +178,103 @@
   "pts": [
    {
     "feature": "pts_l10",
-    "importance": 0.557
+    "importance": 0.622
    },
    {
     "feature": "fga_l10",
-    "importance": 0.29
+    "importance": 0.271
    },
    {
     "feature": "pts_szn",
-    "importance": 0.264
+    "importance": 0.265
    },
    {
     "feature": "missing_pts",
-    "importance": 0.138
+    "importance": 0.123
    },
    {
     "feature": "min_l3",
-    "importance": 0.125
+    "importance": 0.122
    },
    {
     "feature": "pts_prev",
-    "importance": 0.076
+    "importance": 0.081
    },
    {
     "feature": "pts_p36_prev",
-    "importance": 0.075
+    "importance": 0.064
    },
    {
-    "feature": "min_l10",
-    "importance": 0.049
+    "feature": "games_szn",
+    "importance": 0.057
    }
   ],
   "reb": [
    {
     "feature": "reb_l10",
-    "importance": 0.276
+    "importance": 0.257
    },
    {
     "feature": "reb_szn",
-    "importance": 0.15
+    "importance": 0.142
    },
    {
     "feature": "reb_p36_prev",
-    "importance": 0.067
-   },
-   {
-    "feature": "min_l3",
-    "importance": 0.045
-   },
-   {
-    "feature": "reb_prev",
-    "importance": 0.042
+    "importance": 0.057
    },
    {
     "feature": "missing_reb",
-    "importance": 0.03
+    "importance": 0.039
    },
    {
-    "feature": "reb_l5",
-    "importance": 0.019
+    "feature": "min_l3",
+    "importance": 0.037
    },
    {
-    "feature": "min_szn",
-    "importance": 0.019
+    "feature": "reb_prev",
+    "importance": 0.036
+   },
+   {
+    "feature": "min_sd10",
+    "importance": 0.017
+   },
+   {
+    "feature": "reb_p36_l10",
+    "importance": 0.017
    }
   ],
   "ast": [
    {
     "feature": "ast_l10",
-    "importance": 0.233
+    "importance": 0.258
    },
    {
     "feature": "ast_szn",
-    "importance": 0.102
+    "importance": 0.121
    },
    {
     "feature": "ast_p36_prev",
-    "importance": 0.043
+    "importance": 0.046
    },
    {
     "feature": "missing_ast",
-    "importance": 0.029
+    "importance": 0.035
    },
    {
     "feature": "ast_prev",
-    "importance": 0.021
+    "importance": 0.029
    },
    {
     "feature": "min_l3",
-    "importance": 0.019
+    "importance": 0.023
    },
    {
     "feature": "ast_l5",
-    "importance": 0.014
+    "importance": 0.017
    },
    {
-    "feature": "ast_p36_l10",
-    "importance": 0.014
+    "feature": "ast_l3",
+    "importance": 0.013
    }
   ]
  }
